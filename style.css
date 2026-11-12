@@ -11,32 +11,41 @@ body{
     min-height: 100vh;
     background-position: center;
     background-size: cover;
-    background: url("me.jpg");
+    background: url("khos.jpg");
 }
 h1{
     margin-bottom: 30px;
     color:  rgb(81, 94, 157);
 }
+p{
+    color: rgb(81, 94, 157);;
+}
 .warpper{
+    position: relative;
     width: 350px;
     padding: 35px 20px ;
     background-color: blue;
-    border: 1px solid black;
+    border: 2px solid white;
     border-radius: 20px;
     text-align: center;
     background: transparent;
+    backdrop-filter: blur(3px);
 }
 .input-box input{
+    background: transparent;
     margin-top: 20px;
     width: 100%;
     height: 50%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     outline: none;
     padding: 15px 20px;
     margin: 0;
     color: black;
 
+}
+.input-box ::placeholder{
+    color: white;
 }
 .check-box {
     display: flex;
@@ -47,7 +56,7 @@ h1{
 }
 .next{
     width: 80%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     outline: none;
     padding: 10px 15px;
@@ -57,7 +66,8 @@ h1{
     margin-top: -50px;
     margin-bottom: 10px;
     background-color: rgb(81, 94, 157);
-
+    border: none;
+    
 
 }
 .check-box a{
@@ -76,20 +86,23 @@ h1{
     color: blue;
 }
 .warpper1{
+     position: relative;
     width: 300px;
     padding: 35px 20px ;
     background-color: blue;
-    border: 1px solid black;
+    border: 2px solid white;
     border-radius: 20px;
     text-align: center;
     background: transparent;
+    backdrop-filter: blur(3px);
 
 }
 .input-email input{ 
+    background: transparent;
     margin-top: 20px;
     width: 100%;
     height: 50%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     outline: none;
     padding: 15px 20px;
@@ -97,13 +110,16 @@ h1{
     color: black;
 
 }
+.input-email ::placeholder{
+    color: white;
+}
 h2{
     margin-bottom: 10px;
     color: rgb(81, 94, 157);
 }
 .reset-ps{
      width: 80%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     outline: none;
     padding: 10px 15px;
@@ -113,6 +129,7 @@ h2{
     margin-top:0px;
     margin-bottom: 10px;
     background-color: rgb(81, 94, 157);
+    border: none;
 
 }
 a{
@@ -131,26 +148,32 @@ h3{
 
 }
 .warpper2{ 
+     position: relative;
     margin-top: 20px;
     width: 350px;
     padding: 35px 20px ;
     background-color: blue;
-    border: 1px solid black;
+    border: 2px solid white;
     border-radius: 20px;
     text-align: center;
     background: transparent;
+    backdrop-filter: blur(3px);
 }
 .warpper2 .input-creatacc input{
      margin-top: 20px;
     width: 100%;
     height: 50%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     outline: none;
     padding: 15px 20px;
     margin: 0;
     color: black;
+    background: transparent;
 
+}
+.input-creatacc ::placeholder{
+    color: white;
 }
 .f16 {
     font-size: 20px;
@@ -172,11 +195,12 @@ h4{
     
 }
 .warpper3{
+     position: relative;
     margin-top: 20px;
     width: 200px;
     padding: 10px 20px ;
     background-color: blue;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 20px;
     text-align: center;
     background: transparent;
@@ -193,13 +217,4 @@ h4{
     margin: 0;
     color: black;
 
-}
-.radio{
-    margin-top: 20px;
-}
-.f18{
-    margin-top: 10px;
-}
-h5{
-    margin-top: 10px;
 }
